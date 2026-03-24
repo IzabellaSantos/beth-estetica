@@ -1,6 +1,7 @@
 :root {
-    --primary: #d4af37; /* Dourado */
-    --secondary: #fdf5e6; /* Nude/Creme */
+    --primary: #9978bd;
+    --third: #b997de; 
+    --secondary: #f4edfa; 
     --text: #333;
     --white: #ffffff;
 }
@@ -94,7 +95,7 @@ nav a {
 }
 
 /* Seções Gerais */
-.section, .sobre-mim, .galeria, .agendamento, .faq, .diferenciais, .depoimentos {
+.section, .sobre-mim, .galeria, .agendamento, .faq, .depoimentos {
     padding: 80px 20px;
     max-width: 1200px;
     margin: auto;
@@ -151,7 +152,7 @@ input, select {
 
 /* Footer */
 footer {
-    background: #222;
+    background: #9978bd;
     color: white;
     padding: 40px 20px;
     margin-top: 50px;
@@ -159,17 +160,7 @@ footer {
 
 /* --- Estilização Adicional para Partes Faltantes --- */
 
-/* Diferenciais (Cards com ícones) */
-.diferenciais {
-    display: flex;
-    justify-content: center;
-    gap: 20px;
-    padding: 40px 20px;
-    background: var(--secondary);
-    flex-wrap: wrap; /* Para funcionar no celular */
-}
-
-.diferenciais .card {
+.card {
     background: var(--white);
     padding: 25px;
     border-radius: 12px;
